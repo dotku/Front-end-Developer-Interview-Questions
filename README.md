@@ -1,17 +1,19 @@
 # Front-end-Developer-Interview-Questions-and-Answers
-原 Questions 的作者是不允许发布答案的，我这里则公布我的参考答案，未必是正确的，欢迎指错。
+
+> 原 Questions 的作者是不允许发布答案的，我这里则公布我的参考答案，未必是正确的，欢迎指错。
 
 ## General Question  
-这个问题基本略过，随机应变吧，基本上是积极向上的内容就行
-** 记得准备一些问题来问考官，比如职位的基本情况，类似参与的人员有多少，项目的目的，时间长短之类的，以表示你对该职位的重视和深远的考量
+
+> 这个问题基本略过，随机应变吧，基本上是积极向上的内容就行  
+> \*\* 记得准备一些问题来问考官，比如职位的基本情况，类似参与的人员有多少，项目的目的，时间长短之类的，以表示你对该职位的重视和深远的考量
 
 ## HTML Questions:
 - What does a doctype do?
-doctype 是用来定义文档信息的，主要是指版本信息
+> doctype 是用来定义文档信息的，主要是指版本信息
 
 - What's the difference between full standards mode, almost standards mode and quirks mode?
-standards mode? 其实默认下不是 standard，而是 quirks 模式，所以你需要添加 doctype 来声明文档模式，否则一堆 bug 等着你了。
-almost standards 是 Mozilla 1.x 浏览器的产物，和微软的 quirks 模式(IE 5.0 的产物)差不多的东西。
+> standards mode? 其实默认下不是 standard，而是 quirks 模式，所以你需要添加 doctype 来声明文档模式，否则一堆 bug 等着你了。  
+> almost standards 是 Mozilla 1.x 浏览器的产物，和微软的 quirks 模式(IE 5.0 的产物)差不多的东西。
 
 - What's the difference between HTML and XHTML?
 XHTML 是 HTML 的分支版本，被誉为是 HTML 4.x，对 HTML 有较严格的控制，比如起始标签 <div> 和结尾标签 </div> 
@@ -42,19 +44,21 @@ XHTML 有点像 HTML 标准的玄武纪，有很多创新的想法，是 HTML5 �
 > sessionStorage only alive during the browser open period, it would destory when browser close.
 > localStorage can only be destored by force, it won't automatically desapre; it could save more data than cookie does.
 
-- Describe the difference between <script>, <script async> and <script defer>.
+- Describe the difference between `<script>`, `<script async>` and `<script defer>`.
 > Script normal mode, downloand and run one by one
 > Async, several file will donwload at the same time
 > defer, move the current file to the final, esp for the application files; 
 garentee they will run after lib script files are all downloaded.
 
-- Why is it generally a good idea to position CSS <link>s between <head></head> and JS <script>s just before </body>? Do you know any exceptions?
-> Style should go first; other wise user would see unstyled View at first.
-> Script on the last, so user could see the View in less waiting time.
-
-Exception:
-> You try to have different theme for the webpage, so we need dynatically load css file.
+- Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
+> Style should go first; other wise user would see unstyled View at first.    
+> Script on the last, so user could see the View in less waiting time.  
+> Exception:  
+> You try to have different theme for the webpage, so we need dynatically load css file.  
 > If some Script library take longer time, it could be placed in head, so the js code rest could use the lib function immidately.
 
 - What is progressive rendering?
-Have you used different HTML templating languages before?
+> It is the technologies for reanding the conent of page as quickly as possiable, such as lazy loading.
+
+- Have you used different HTML templating languages before?
+> There are several templating language, such as twig, mushtash, jade, underscore, embedjs, handlebarjs, and ect.
