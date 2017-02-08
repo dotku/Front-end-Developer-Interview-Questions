@@ -40,9 +40,9 @@
 > Local Storage  
 
 - Describe the difference between a cookie, sessionStorage and localStorage.
-> Cookie is a string stores in the browser, could setup the expired time, usually it is used for sotre user information  
-> sessionStorage only alive during the browser open period, it would destory when browser close.  
-> localStorage can only be destored by force, it won't automatically desapre; it could save more data than cookie does.  
+> - Cookie is a string stores in the browser, could setup the expired time, usually it is used for sotre user information  
+> - sessionStorage only alive during the browser open period, it would destory when browser close.  
+> - localStorage can only be destored by force, it won't automatically desapre; it could save more data than cookie does.  
 
 - Describe the difference between `<script>`, `<script async>` and `<script defer>`.
 > Script normal mode, downloand and run one by one  
