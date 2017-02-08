@@ -18,7 +18,7 @@ CSS Questions:
 > eg. http://codepen.io/SitePoint/pen/XbVOXp
 
 - What are the various clearing techniques and which is appropriate for what context?
-(to be continous...)
+> (to be continous...)
 
 - Explain CSS sprites, and how you would implement them on a page or site.
 - What are your favourite image replacement techniques and which do you use when?
