@@ -21,10 +21,10 @@
 > XHTML 有点像 HTML 标准的玄武纪，有很多创新的想法，是 HTML5 的基石，虽然死的也很快）
 
 - Are there any problems with serving pages as application/xhtml+xml?
-参考 HTML and XHTML 的问题，基本上就是兼容方面的隐患。
+> 参考 HTML and XHTML 的问题，基本上就是兼容方面的隐患。
 
 - How do you serve a page with content in multiple languages?
-在 HTML 范畴，使用 lang='xx' 属性设置，从用户使用角度来讲的话，JavaScript 方面有更多的相关方案。
+> 在 HTML 范畴，使用 lang='xx' 属性设置，从用户使用角度来讲的话，JavaScript 方面有更多的相关方案。
 
 - What kind of things must you be wary of when design or developing for multilingual sites?
 > 比如字体大小，中文 8px 基本上无法看，至少需要 12px 的大小。  
