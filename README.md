@@ -27,7 +27,7 @@
 在 HTML 范畴，使用 lang='xx' 属性设置，从用户使用角度来讲的话，JavaScript 方面有更多的相关方案。
 
 - What kind of things must you be wary of when design or developing for multilingual sites?
-> 比如字体大小，中文 8px 基本上无法看，至少需要 12px 的大小。
+> 比如字体大小，中文 8px 基本上无法看，至少需要 12px 的大小。  
 > 文化差异问题，即时使用相同的语言文字，不同地方的人使用的用语也不同；除此之外，时间货币格式等也有差异
 
 - What are data- attributes good for?
