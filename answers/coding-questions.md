@@ -90,6 +90,12 @@ to an original object, `{n: 1}`. So, when the result of the right term, `{n:
 2}`, is evaluated, it will assigned to the original object, which is at the
 moment referenced by `bar`.
 
+1. foo.x, bar.x
+2. foo = {n: 2}, return foo
+3. ref#bar has x, assigned {n: 2}, return bar
+
+via: http://www.ecma-international.org/ecma-262/5.1/#sec-11.13.1
+
 #### *Question: What does the following code print?*
 ```javascript
 console.log('one');
